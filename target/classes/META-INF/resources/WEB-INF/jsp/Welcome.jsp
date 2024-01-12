@@ -5,11 +5,8 @@
 <body>
 	<%@ include file="common/navigation.jspf"%>
 
-	<div class="container">
-		<h2>Welcome!!</h2>
-		<h4>Your username is '${username}'</h4>
-		<div>
-			<a href="todo-list">Manage</a> your todos.
-		</div>
+	<div class="container mt-5">
+		<h2>Welcome '${username}'!!</h2>
+		<h4>Click on <a href="todo-list">manage my todos</a> to manage your todos.</h4>
 	</div>
 	<%@ include file="common/footer.jspf"%>
